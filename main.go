@@ -49,7 +49,7 @@ func main() {
 		rmqport = "5672"
 	}
 
-	url := fmt.Sprintf("amqp://%s:%s@%s:%s", rmquser, rbmqsecret, rmqurl, rmqport)
+	url := fmt.Sprintf("amqp://%s:%s@%s:%s", rmquser, rbmqsecret.Data, rmqurl, rmqport)
 	connection, err := amqp.Dial(url)
 
 	if err != nil {
