@@ -1,5 +1,4 @@
 {
     "name": "rabbitrole",
-    "tags": "administrator,management",
-    "vhost": "{\"/\": {\"configure\":\".*\", \"write\":\".*\", \"read\": \".*\"}}"
+    "vhosts": "{\"/\": {\"configure\":\".*\", \"write\":\".*\", \"read\": \".*\"}}"
 }
