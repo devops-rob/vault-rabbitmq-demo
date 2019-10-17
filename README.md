@@ -1,3 +1,5 @@
+![alt text](https://www.devopsrob.com/wp-content/uploads/2019/06/DevOps-Rob-Ltd-5-e1560366034138.png "Logo Title Text 1")
+
 # vault-rabbitmq-demo
 
 This is a simple Go application to demonstrate how to use Hashicorp Vault to dynamically generate short-lived credetials for RabbitMQ and use these secrets invisibly at run time for a more secure coding experience.  In order for your application to connect to RabbitMQ, you need credentials in your code to make the API call, which is the problem we are solving here with the introduction of Vault.
