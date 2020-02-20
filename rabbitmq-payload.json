@@ -1,5 +1,0 @@
-{
-    "connection_uri": "http://rabbitmq:15672",
-    "username": "guest",
-    "password": "guest"
-}

@@ -1,9 +1,0 @@
-{
-    "type": "rabbitmq",
-    "description": "RabbitMQ secrets engine",
-    "config": {
-        "default_lease_ttl": 300,
-        "max_lease_ttl": 300,
-        "listing_visibility": "unauth"
-    }
-}

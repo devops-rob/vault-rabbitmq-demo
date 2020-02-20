@@ -1,4 +1,0 @@
-{
-    "name": "rabbitrole",
-    "vhosts": "{\"/\": {\"configure\":\".*\", \"write\":\".*\", \"read\": \".*\"}}"
-}
